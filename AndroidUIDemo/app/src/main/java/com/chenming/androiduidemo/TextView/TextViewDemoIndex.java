@@ -3,9 +3,9 @@ package com.chenming.androiduidemo.TextView;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.EditText;
 import android.widget.ListView;
 
-import com.chenming.androiduidemo.MainActivity;
 import com.chenming.androiduidemo.R;
 import com.chenming.androiduidemo.model.DemoInfo;
 import com.chenming.androiduidemo.model.DemoItemClickListener;
@@ -20,7 +20,8 @@ public class TextViewDemoIndex extends AppCompatActivity {
     private static final DemoInfo[] DEMOS = {
             new DemoInfo("TextView",TextViewDemo.class),
             new DemoInfo("CheckedTextView",CheckedTextViewDemo.class),
-            new DemoInfo("AdapterView及其子类",MainActivity.class)
+            new DemoInfo("EditText",EditTextDemo.class),
+            new DemoInfo("Button",ButtonDemo.class)
     };
 
     @Override

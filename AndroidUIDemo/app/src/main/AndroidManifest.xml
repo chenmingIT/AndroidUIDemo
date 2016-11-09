@@ -21,6 +21,10 @@
         </activity>
         <activity android:name=".TextView.CheckedTextViewDemo">
         </activity>
+        <activity android:name=".TextView.EditTextDemo">
+        </activity>
+        <activity android:name=".TextView.ButtonDemo">
+        </activity>
     </application>
 
 </manifest>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="提示 hint"
+        android:selectAllOnFocus="true"/>
+
+    <!-- android:inputType="numberPassword"表明只能接受数字密码 -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        android:hint="密码类型,只能数字，inputType指定类型"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="EditText派生出两个子类：
+        一个是自动完成文本框（AutoCompleteTextView）,下面的例子就是，
+        另一个是ExtraEditText 这个不是UI组件，是EditText底层服务类，负责屏蔽输入法支持。"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="适配器里面保存了China,Japan,Korean,Russian,USA,Hong Kong。completionThreshold设置输入1个字母就提示。"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/antoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="自动完成输入框"
+        android:completionThreshold="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="下面的例子可以自动完成文本框可以记住搜索记录"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/antoCompleteTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="自动完成输入框(记住历史记录)"
+        android:completionThreshold="1"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索"/>
+        <Button
+            android:id="@+id/empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="清空"/>
+    </LinearLayout>
+
+</LinearLayout>
