@@ -3,28 +3,134 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
-    <!-- 文字带阴影的按钮 -->
-    <Button
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="正常按钮"/>
+        <!-- 文字带阴影的按钮 -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="文字带阴影的按钮"
+            android:textSize="12pt"
+            android:shadowColor="#aa5"
+            android:shadowRadius="1"
+            android:shadowDx="5"
+            android:shadowDy="5"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <!-- 普通文字按钮 -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_red"
+            android:text="带图片按钮"
+            android:textSize="10pt"/>
+        <!-- 带文字的图片按钮-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_selector"
+            android:textSize="15dp"
+            android:text="带文字的图片按钮，点击会变图片"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RadioButton组 单选:"
+            android:textSize="20dp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/rg">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项一"
+                android:id="@+id/radioButton1"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项二"
+                android:id="@+id/radioButton2"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="checkbox组 多选:"
+            android:textSize="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项一"
+                android:id="@+id/checkbox1"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项二"
+                android:id="@+id/checkbox2"/>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选项三"
+                android:id="@+id/checkbox3"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="文字带阴影的按钮"
-        android:textSize="12pt"
-        android:shadowColor="#aa5"
-        android:shadowRadius="1"
-        android:shadowDx="5"
-        android:shadowDy="5"/>
-    <!-- 普通文字按钮 -->
-    <Button
-        android:layout_width="wrap_content"
+        android:text="下面三个按钮，第一个是ToggleButton，第二个是普通的Switch，第三个是自定义的Switch。"
+        android:textSize="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/red"
-        android:text="普通按钮"
-        android:textSize="10pt"/>
-    <!-- 带文字的图片按钮-->
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/button_selector"
-        android:textSize="11px"
-        android:text="带文字的图片按钮"/>
+        android:orientation="horizontal">
+        <!-- 定义一个ToggleButton按钮 -->
+        <ToggleButton android:id="@+id/toggle"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textOff="横向排列"
+                      android:textOn="纵向排列"
+                      android:checked="true"/>
+        <Switch
+            android:id="@+id/switcher1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"/>
+        <Switch android:id="@+id/switcher2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOff="横向排列"
+                android:textOn="纵向排列"
+                android:thumb="@drawable/button_check"
+                android:checked="true"/>
+    </LinearLayout>
+
+
 </LinearLayout>

@@ -25,6 +25,10 @@
         </activity>
         <activity android:name=".TextView.ButtonDemo">
         </activity>
+        <activity android:name=".TextView.ChronometerDemo">
+        </activity>
+        <activity android:name=".TextView.TextClockDemo">
+        </activity>
     </application>
 
 </manifest>

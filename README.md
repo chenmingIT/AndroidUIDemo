@@ -12,3 +12,9 @@
 
 * TextView及其子类：EditText中新增自动完成文本框历史记录保存
 * TextView及其子类：Button
+
+**版本三  2016年11月11日** 
+
+* TextView及其子类：Button新增ToggleButton和Switch
+* TextView及其子类：Chronometer计时器
+* TextView及其子类：TextClock时间显示
