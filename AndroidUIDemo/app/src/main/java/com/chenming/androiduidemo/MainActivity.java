@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
 
+import com.chenming.androiduidemo.ImageView.ImageViewDemoIndex;
 import com.chenming.androiduidemo.TextView.TextViewDemoIndex;
 import com.chenming.androiduidemo.model.DemoInfo;
 import com.chenming.androiduidemo.model.DemoItemClickListener;
@@ -17,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
      */
     private static final DemoInfo[] DEMOS = {
             new DemoInfo("TextView及其子类",TextViewDemoIndex.class),
-            new DemoInfo("ImageView及其子类",MainActivity.class),
+            new DemoInfo("ImageView及其子类",ImageViewDemoIndex.class),
             new DemoInfo("AdapterView及其子类",MainActivity.class)
     };
 

@@ -29,6 +29,11 @@
         </activity>
         <activity android:name=".TextView.TextClockDemo">
         </activity>
+        <activity android:name=".ImageView.ImageViewDemoIndex"/>
+        <activity android:name=".ImageView.ImageViewDemo"/>
+        <activity android:name=".ImageView.ImageButtonDemo"/>
+        <activity android:name=".ImageView.QuickContactBadgeDemo">
+        </activity>
     </application>
 
 </manifest>
