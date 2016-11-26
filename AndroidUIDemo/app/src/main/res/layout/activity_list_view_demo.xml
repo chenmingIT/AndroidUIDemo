@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <!-- 直接使用数组资源给出列表项 -->
+    <!-- 设置使用红色的分隔条 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="listview 使用资源数组，并且监听点击子项事件和监听滚动到底端和顶端的事件。"/>
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/books"
+        android:divider="#f00"
+        android:dividerHeight="2px"
+        android:headerDividersEnabled="false"
+        android:drawSelectorOnTop="true"/>
+</LinearLayout>

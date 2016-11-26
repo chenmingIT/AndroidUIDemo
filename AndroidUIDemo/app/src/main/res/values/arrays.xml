@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="books">
+        <item>疯狂Java讲义1</item>
+        <item>疯狂Ajax讲义2</item>
+        <item>疯狂XML讲义3</item>
+        <item>疯狂Android讲义4</item>
+        <item>疯狂Java讲义5</item>
+        <item>疯狂Ajax讲义6</item>
+        <item>疯狂XML讲义7</item>
+        <item>疯狂Android讲义8</item>
+        <item>疯狂Java讲义9</item>
+        <item>疯狂Ajax讲义10</item>
+        <item>疯狂XML讲义11</item>
+        <item>疯狂Android讲义12</item>
+        <item>疯狂Java讲义13</item>
+        <item>疯狂Ajax讲义14</item>
+        <item>疯狂XML讲义15</item>
+        <item>疯狂Android讲义16</item>
+        <item>疯狂Java讲义17</item>
+        <item>疯狂Ajax讲义18</item>
+        <item>疯狂XML讲义19</item>
+        <item>疯狂Android讲义20</item>
+        <item>疯狂Java讲义21</item>
+        <item>疯狂Ajax讲义22</item>
+        <item>疯狂XML讲义23</item>
+        <item>疯狂Android讲义24</item>
+        <item>疯狂Java讲义25</item>
+        <item>疯狂Ajax讲义26</item>
+        <item>疯狂XML讲义27</item>
+        <item>疯狂Android讲义28</item>
+        <item>疯狂Java讲义29</item>
+        <item>疯狂Ajax讲义30</item>
+    </string-array>
+</resources>
