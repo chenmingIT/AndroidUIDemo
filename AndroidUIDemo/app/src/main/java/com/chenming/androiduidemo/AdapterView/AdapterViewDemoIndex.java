@@ -17,7 +17,8 @@ public class AdapterViewDemoIndex extends AppCompatActivity {
      *title及其对应要跳转的class
      */
     private static final DemoInfo[] DEMOS = {
-            new DemoInfo("ListView 列表",ListViewDemo.class)
+            new DemoInfo("ListView 列表",ListViewDemo.class),
+            new DemoInfo("用Adapter创建ListView",AdapterListViewDemo.class)
 
     };
 

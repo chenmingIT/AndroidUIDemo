@@ -33,10 +33,10 @@
         <activity android:name=".ImageView.ImageViewDemo"/>
         <activity android:name=".ImageView.ImageButtonDemo"/>
         <activity android:name=".ImageView.QuickContactBadgeDemo"/>
-
-
         <activity android:name=".AdapterView.AdapterViewDemoIndex"/>
         <activity android:name=".AdapterView.ListViewDemo">
+        </activity>
+        <activity android:name=".AdapterView.AdapterListViewDemo">
         </activity>
     </application>
 
