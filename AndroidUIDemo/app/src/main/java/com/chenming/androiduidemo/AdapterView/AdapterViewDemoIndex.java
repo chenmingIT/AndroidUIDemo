@@ -18,7 +18,8 @@ public class AdapterViewDemoIndex extends AppCompatActivity {
      */
     private static final DemoInfo[] DEMOS = {
             new DemoInfo("ListView 列表",ListViewDemo.class),
-            new DemoInfo("用Adapter创建ListView",AdapterListViewDemo.class)
+            new DemoInfo("用Adapter创建ListView",AdapterListViewDemo.class),
+            new DemoInfo("GridView 网络视图",GridViewDemo.class)
 
     };
 
