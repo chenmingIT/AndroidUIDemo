@@ -48,6 +48,10 @@
         </activity>
         <activity android:name=".AdapterView.StackViewDemo">
         </activity>
+        <activity android:name=".ProgressBar.ProgressBarDemoIndex">
+        </activity>
+        <activity android:name=".ProgressBar.ProgressBarDemo">
+        </activity>
     </application>
 
 </manifest>

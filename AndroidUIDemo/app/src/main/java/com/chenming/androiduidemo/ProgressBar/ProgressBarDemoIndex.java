@@ -1,28 +1,30 @@
-package com.chenming.androiduidemo.TextView;
+package com.chenming.androiduidemo.ProgressBar;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
 
-import com.chenming.androiduidemo.R;
 import com.chenming.androiduidemo.Model.DemoInfo;
 import com.chenming.androiduidemo.Model.DemoItemClickListener;
 import com.chenming.androiduidemo.Model.DemoListAdapter;
+import com.chenming.androiduidemo.R;
+import com.chenming.androiduidemo.TextView.ButtonDemo;
+import com.chenming.androiduidemo.TextView.CheckedTextViewDemo;
+import com.chenming.androiduidemo.TextView.ChronometerDemo;
+import com.chenming.androiduidemo.TextView.EditTextDemo;
+import com.chenming.androiduidemo.TextView.TextClockDemo;
+import com.chenming.androiduidemo.TextView.TextViewDemo;
+import com.chenming.androiduidemo.TextView.TextViewDemoIndex;
 
-public class TextViewDemoIndex extends AppCompatActivity {
+public class ProgressBarDemoIndex extends AppCompatActivity {
 
     ListView listView ;
     /**
      *title及其对应要跳转的class
      */
     private static final DemoInfo[] DEMOS = {
-            new DemoInfo("TextView 文本框",TextViewDemo.class),
-            new DemoInfo("CheckedTextView 勾选文本框",CheckedTextViewDemo.class),
-            new DemoInfo("EditText 编辑框",EditTextDemo.class),
-            new DemoInfo("Button 按钮",ButtonDemo.class),
-            new DemoInfo("Chronometer 计时器",ChronometerDemo.class),
-            new DemoInfo("TextClock 时间显示",TextClockDemo.class)
+            new DemoInfo("ProgressBar 进度条",ProgressBarDemo.class),
     };
 
     @Override
@@ -36,9 +38,8 @@ public class TextViewDemoIndex extends AppCompatActivity {
 
         }
 
-
         listView = (ListView)findViewById(R.id.listView) ;
-        listView.setAdapter(new DemoListAdapter(TextViewDemoIndex.this,DEMOS));
-        listView.setOnItemClickListener(new DemoItemClickListener(TextViewDemoIndex.this,DEMOS));
+        listView.setAdapter(new DemoListAdapter(ProgressBarDemoIndex.this,DEMOS));
+        listView.setOnItemClickListener(new DemoItemClickListener(ProgressBarDemoIndex.this,DEMOS));
     }
 }

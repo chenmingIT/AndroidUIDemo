@@ -1,4 +1,4 @@
-package com.chenming.androiduidemo.model;
+package com.chenming.androiduidemo.Model;
 
 import android.content.Context;
 import android.view.View;

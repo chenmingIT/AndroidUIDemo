@@ -6,10 +6,11 @@ import android.widget.ListView;
 
 import com.chenming.androiduidemo.AdapterView.AdapterViewDemoIndex;
 import com.chenming.androiduidemo.ImageView.ImageViewDemoIndex;
+import com.chenming.androiduidemo.ProgressBar.ProgressBarDemoIndex;
 import com.chenming.androiduidemo.TextView.TextViewDemoIndex;
-import com.chenming.androiduidemo.model.DemoInfo;
-import com.chenming.androiduidemo.model.DemoItemClickListener;
-import com.chenming.androiduidemo.model.DemoListAdapter;
+import com.chenming.androiduidemo.Model.DemoInfo;
+import com.chenming.androiduidemo.Model.DemoItemClickListener;
+import com.chenming.androiduidemo.Model.DemoListAdapter;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
     private static final DemoInfo[] DEMOS = {
             new DemoInfo("TextView及其子类",TextViewDemoIndex.class),
             new DemoInfo("ImageView及其子类",ImageViewDemoIndex.class),
-            new DemoInfo("AdapterView及其子类",AdapterViewDemoIndex.class)
+            new DemoInfo("AdapterView及其子类",AdapterViewDemoIndex.class),
+            new DemoInfo("ProgressBar及其子类",ProgressBarDemoIndex.class)
     };
 
 

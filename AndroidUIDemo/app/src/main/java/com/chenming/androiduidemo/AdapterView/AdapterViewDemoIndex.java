@@ -4,12 +4,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
-import android.widget.Spinner;
 
 import com.chenming.androiduidemo.R;
-import com.chenming.androiduidemo.model.DemoInfo;
-import com.chenming.androiduidemo.model.DemoItemClickListener;
-import com.chenming.androiduidemo.model.DemoListAdapter;
+import com.chenming.androiduidemo.Model.DemoInfo;
+import com.chenming.androiduidemo.Model.DemoItemClickListener;
+import com.chenming.androiduidemo.Model.DemoListAdapter;
 
 public class AdapterViewDemoIndex extends AppCompatActivity {
 

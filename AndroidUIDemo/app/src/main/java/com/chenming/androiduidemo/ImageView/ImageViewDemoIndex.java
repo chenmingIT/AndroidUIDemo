@@ -6,9 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 
 import com.chenming.androiduidemo.R;
-import com.chenming.androiduidemo.model.DemoInfo;
-import com.chenming.androiduidemo.model.DemoItemClickListener;
-import com.chenming.androiduidemo.model.DemoListAdapter;
+import com.chenming.androiduidemo.Model.DemoInfo;
+import com.chenming.androiduidemo.Model.DemoItemClickListener;
+import com.chenming.androiduidemo.Model.DemoListAdapter;
 
 public class ImageViewDemoIndex extends AppCompatActivity {
 
