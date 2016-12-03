@@ -40,6 +40,14 @@
         </activity>
         <activity android:name=".AdapterView.GridViewDemo">
         </activity>
+        <activity android:name=".AdapterView.ExpandableListViewDemo">
+        </activity>
+        <activity android:name=".AdapterView.SpinnerDemo">
+        </activity>
+        <activity android:name=".AdapterView.AdapterViewFlipperDemo">
+        </activity>
+        <activity android:name=".AdapterView.StackViewDemo">
+        </activity>
     </application>
 
 </manifest>

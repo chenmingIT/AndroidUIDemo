@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AndroidUIDemo</string>
+
+    <string name="tip">小提示</string>
 </resources>
