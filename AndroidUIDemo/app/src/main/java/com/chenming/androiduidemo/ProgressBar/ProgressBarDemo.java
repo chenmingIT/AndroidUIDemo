@@ -1,5 +1,6 @@
 package com.chenming.androiduidemo.ProgressBar;
 
+import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
@@ -36,6 +37,11 @@ public class ProgressBarDemo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_progress_bar_demo);
+
+        Intent intent = getIntent();
+        if (intent.hasExtra("title")) {
+            setTitle(intent.getExtras().getString("title"));
+        }
 
         bar = (ProgressBar) findViewById(R.id.bar);
         bar2 = (ProgressBar) findViewById(R.id.bar2);

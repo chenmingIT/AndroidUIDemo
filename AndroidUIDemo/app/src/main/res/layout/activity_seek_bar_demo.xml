@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="几个重要的属性：1、max 设置拖动条最大时的值。
+        2、progress 设置当前值。3、thumb 设置拖动按钮。4、progressDrawable 设置背景。"/>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:src="@drawable/lijiang"/>
+    <!-- 定义一个拖动条，并改变它的滑块外观 -->
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:progress="255"
+        android:thumb="@drawable/button_check"/>
+</LinearLayout>

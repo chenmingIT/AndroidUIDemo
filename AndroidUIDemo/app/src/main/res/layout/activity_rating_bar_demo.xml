@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="几个重要的属性：1、max 设置拖动条最大时的值。
+        2、progress 设置当前值。3、numStars 星星数。4、stepSize 每次拖动变化几个星。"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:src="@drawable/lijiang"/>
+    <!-- 定义一个星级评分条 -->
+    <RatingBar
+        android:id="@+id/rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:max="255"
+        android:progress="255"
+        android:stepSize="0.5"/>
+</LinearLayout>

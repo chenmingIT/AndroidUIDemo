@@ -25,6 +25,8 @@ public class ProgressBarDemoIndex extends AppCompatActivity {
      */
     private static final DemoInfo[] DEMOS = {
             new DemoInfo("ProgressBar 进度条",ProgressBarDemo.class),
+            new DemoInfo("SeekBar 拖动条",SeekBarDemo.class),
+            new DemoInfo("RatingBar 星级评价",RatingBarDemo.class)
     };
 
     @Override
