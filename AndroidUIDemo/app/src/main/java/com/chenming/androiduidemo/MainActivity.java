@@ -11,6 +11,7 @@ import com.chenming.androiduidemo.TextView.TextViewDemoIndex;
 import com.chenming.androiduidemo.Model.DemoInfo;
 import com.chenming.androiduidemo.Model.DemoItemClickListener;
 import com.chenming.androiduidemo.Model.DemoListAdapter;
+import com.chenming.androiduidemo.ViewAnimator.ViewAnimatorDemoIndex;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,7 +23,8 @@ public class MainActivity extends AppCompatActivity {
             new DemoInfo("TextView及其子类",TextViewDemoIndex.class),
             new DemoInfo("ImageView及其子类",ImageViewDemoIndex.class),
             new DemoInfo("AdapterView及其子类",AdapterViewDemoIndex.class),
-            new DemoInfo("ProgressBar及其子类",ProgressBarDemoIndex.class)
+            new DemoInfo("ProgressBar及其子类",ProgressBarDemoIndex.class),
+            new DemoInfo("ViewAnimator及其子类", ViewAnimatorDemoIndex.class)
     };
 
 

@@ -56,6 +56,16 @@
         </activity>
         <activity android:name=".ProgressBar.RatingBarDemo">
         </activity>
+        <activity android:name=".ViewAnimator.ViewAnimatorDemoIndex">
+        </activity>
+        <activity android:name=".ViewAnimator.ViewSwitcherDemo">
+        </activity>
+        <activity android:name=".ViewAnimator.ImageSwitcherDemo">
+        </activity>
+        <activity android:name=".ViewAnimator.TextSwitcherDemo">
+        </activity>
+        <activity android:name=".ViewAnimator.ViewFlipperDemo">
+        </activity>
     </application>
 
 </manifest>
