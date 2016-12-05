@@ -66,6 +66,10 @@
         </activity>
         <activity android:name=".ViewAnimator.ViewFlipperDemo">
         </activity>
+        <activity android:name=".Others.OtherDemoIndex">
+        </activity>
+        <activity android:name=".Others.ToastDemo">
+        </activity>
     </application>
 
 </manifest>
