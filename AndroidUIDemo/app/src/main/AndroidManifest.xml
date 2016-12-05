@@ -70,6 +70,18 @@
         </activity>
         <activity android:name=".Others.ToastDemo">
         </activity>
+        <activity android:name=".Others.CalendarViewDemo">
+        </activity>
+        <activity android:name=".Others.ChooseDateDemo">
+        </activity>
+        <activity android:name=".Others.NumberPickerDemo">
+        </activity>
+        <activity android:name=".Others.SearchViewDemo">
+        </activity>
+        <activity android:name=".Others.TabHostDemo">
+        </activity>
+        <activity android:name=".Others.ScrollViewDemo">
+        </activity>
     </application>
 
 </manifest>
