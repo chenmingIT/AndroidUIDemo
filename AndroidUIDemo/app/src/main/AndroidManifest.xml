@@ -72,15 +72,21 @@
         </activity>
         <activity android:name=".Others.CalendarViewDemo">
         </activity>
-        <activity android:name=".Others.ChooseDateDemo">
+        <activity android:name=".Others.DatePickerDemo">
         </activity>
         <activity android:name=".Others.NumberPickerDemo">
         </activity>
         <activity android:name=".Others.SearchViewDemo">
         </activity>
+        <activity android:name=".Others.ScrollViewDemo">
+        </activity>
+        <activity android:name=".Others.TimePickerDemo">
+        </activity>
         <activity android:name=".Others.TabHostDemo">
         </activity>
-        <activity android:name=".Others.ScrollViewDemo">
+        <activity android:name=".Dialog.DialogDemoIndex">
+        </activity>
+        <activity android:name=".Dialog.AlertDialogDemo">
         </activity>
     </application>
 

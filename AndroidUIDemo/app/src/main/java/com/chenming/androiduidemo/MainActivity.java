@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.widget.ListView;
 
 import com.chenming.androiduidemo.AdapterView.AdapterViewDemoIndex;
+import com.chenming.androiduidemo.Dialog.DialogDemoIndex;
 import com.chenming.androiduidemo.ImageView.ImageViewDemoIndex;
 import com.chenming.androiduidemo.Others.OtherDemoIndex;
 import com.chenming.androiduidemo.ProgressBar.ProgressBarDemoIndex;
@@ -26,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
             new DemoInfo("AdapterView及其子类",AdapterViewDemoIndex.class),
             new DemoInfo("ProgressBar及其子类",ProgressBarDemoIndex.class),
             new DemoInfo("ViewAnimator及其子类", ViewAnimatorDemoIndex.class),
-            new DemoInfo("各种杂件组件", OtherDemoIndex.class)
+            new DemoInfo("各种杂件组件", OtherDemoIndex.class),
+            new DemoInfo("对话框", DialogDemoIndex.class)
     };
 
 
