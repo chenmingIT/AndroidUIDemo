@@ -88,6 +88,24 @@
         </activity>
         <activity android:name=".Dialog.AlertDialogDemo">
         </activity>
+        <activity android:name=".Dialog.PopupWindowDemo">
+        </activity>
+        <activity android:name=".Dialog.DateDialogDemo">
+        </activity>
+        <activity android:name=".Dialog.ProgressDialogDemo">
+        </activity>
+        <activity android:name=".Menu.MenuDemoIndex">
+        </activity>
+        <activity android:name=".Menu.MenuDemo">
+        </activity>
+        <activity android:name=".Menu.ActivityMenuDemo">
+        </activity>
+        <activity android:name=".Menu.ContextMenuDemo">
+        </activity>
+        <activity android:name=".Menu.MenuResDemo">
+        </activity>
+        <activity android:name=".Menu.PopupMenuDemo">
+        </activity>
     </application>
 
 </manifest>
