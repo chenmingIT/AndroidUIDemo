@@ -29,8 +29,8 @@ public class MainActivity extends AppCompatActivity {
             new DemoInfo("ProgressBar及其子类",ProgressBarDemoIndex.class),
             new DemoInfo("ViewAnimator及其子类", ViewAnimatorDemoIndex.class),
             new DemoInfo("各种杂件组件", OtherDemoIndex.class),
-            new DemoInfo("对话框", DialogDemoIndex.class),
-            new DemoInfo("菜单", MenuDemoIndex.class)
+            new DemoInfo("Dialog 对话框", DialogDemoIndex.class),
+            new DemoInfo("Menu 菜单", MenuDemoIndex.class)
     };
 
 

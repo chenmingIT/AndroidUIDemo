@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidUIDemo</string>
+    <string name="app_name">安卓控件</string>
 
     <string name="tip">小提示</string>
     <string name="action_settings">Settings</string>
