@@ -15,96 +15,100 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".TextView.TextViewDemoIndex">
+        <activity android:name=".Demo.TextView.TextViewDemoIndex">
         </activity>
-        <activity android:name=".TextView.TextViewDemo">
+        <activity android:name=".Demo.TextView.TextViewDemo">
         </activity>
-        <activity android:name=".TextView.CheckedTextViewDemo">
+        <activity android:name=".Demo.TextView.CheckedTextViewDemo">
         </activity>
-        <activity android:name=".TextView.EditTextDemo">
+        <activity android:name=".Demo.TextView.EditTextDemo">
         </activity>
-        <activity android:name=".TextView.ButtonDemo">
+        <activity android:name=".Demo.TextView.ButtonDemo">
         </activity>
-        <activity android:name=".TextView.ChronometerDemo">
+        <activity android:name=".Demo.TextView.ChronometerDemo">
         </activity>
-        <activity android:name=".TextView.TextClockDemo">
+        <activity android:name=".Demo.TextView.TextClockDemo">
         </activity>
-        <activity android:name=".ImageView.ImageViewDemoIndex"/>
-        <activity android:name=".ImageView.ImageViewDemo"/>
-        <activity android:name=".ImageView.ImageButtonDemo"/>
-        <activity android:name=".ImageView.QuickContactBadgeDemo"/>
-        <activity android:name=".AdapterView.AdapterViewDemoIndex"/>
-        <activity android:name=".AdapterView.ListViewDemo">
+        <activity android:name=".Demo.ImageView.ImageViewDemoIndex"/>
+        <activity android:name=".Demo.ImageView.ImageViewDemo"/>
+        <activity android:name=".Demo.ImageView.ImageButtonDemo"/>
+        <activity android:name=".Demo.ImageView.QuickContactBadgeDemo"/>
+        <activity android:name=".Demo.AdapterView.AdapterViewDemoIndex"/>
+        <activity android:name=".Demo.AdapterView.ListViewDemo">
         </activity>
-        <activity android:name=".AdapterView.AdapterListViewDemo">
+        <activity android:name=".Demo.AdapterView.AdapterListViewDemo">
         </activity>
-        <activity android:name=".AdapterView.GridViewDemo">
+        <activity android:name=".Demo.AdapterView.GridViewDemo">
         </activity>
-        <activity android:name=".AdapterView.ExpandableListViewDemo">
+        <activity android:name=".Demo.AdapterView.ExpandableListViewDemo">
         </activity>
-        <activity android:name=".AdapterView.SpinnerDemo">
+        <activity android:name=".Demo.AdapterView.SpinnerDemo">
         </activity>
-        <activity android:name=".AdapterView.AdapterViewFlipperDemo">
+        <activity android:name=".Demo.AdapterView.AdapterViewFlipperDemo">
         </activity>
-        <activity android:name=".AdapterView.StackViewDemo">
+        <activity android:name=".Demo.AdapterView.StackViewDemo">
         </activity>
-        <activity android:name=".ProgressBar.ProgressBarDemoIndex">
+        <activity android:name=".Demo.ProgressBar.ProgressBarDemoIndex">
         </activity>
-        <activity android:name=".ProgressBar.ProgressBarDemo">
+        <activity android:name=".Demo.ProgressBar.ProgressBarDemo">
         </activity>
-        <activity android:name=".ProgressBar.SeekBarDemo">
+        <activity android:name=".Demo.ProgressBar.SeekBarDemo">
         </activity>
-        <activity android:name=".ProgressBar.RatingBarDemo">
+        <activity android:name=".Demo.ProgressBar.RatingBarDemo">
         </activity>
-        <activity android:name=".ViewAnimator.ViewAnimatorDemoIndex">
+        <activity android:name=".Demo.ViewAnimator.ViewAnimatorDemoIndex">
         </activity>
-        <activity android:name=".ViewAnimator.ViewSwitcherDemo">
+        <activity android:name=".Demo.ViewAnimator.ViewSwitcherDemo">
         </activity>
-        <activity android:name=".ViewAnimator.ImageSwitcherDemo">
+        <activity android:name=".Demo.ViewAnimator.ImageSwitcherDemo">
         </activity>
-        <activity android:name=".ViewAnimator.TextSwitcherDemo">
+        <activity android:name=".Demo.ViewAnimator.TextSwitcherDemo">
         </activity>
-        <activity android:name=".ViewAnimator.ViewFlipperDemo">
+        <activity android:name=".Demo.ViewAnimator.ViewFlipperDemo">
         </activity>
-        <activity android:name=".Others.OtherDemoIndex">
+        <activity android:name=".Demo.Others.OtherDemoIndex">
         </activity>
-        <activity android:name=".Others.ToastDemo">
+        <activity android:name=".Demo.Others.ToastDemo">
         </activity>
-        <activity android:name=".Others.CalendarViewDemo">
+        <activity android:name=".Demo.Others.CalendarViewDemo">
         </activity>
-        <activity android:name=".Others.DatePickerDemo">
+        <activity android:name=".Demo.Others.DatePickerDemo">
         </activity>
-        <activity android:name=".Others.NumberPickerDemo">
+        <activity android:name=".Demo.Others.NumberPickerDemo">
         </activity>
-        <activity android:name=".Others.SearchViewDemo">
+        <activity android:name=".Demo.Others.SearchViewDemo">
         </activity>
-        <activity android:name=".Others.ScrollViewDemo">
+        <activity android:name=".Demo.Others.ScrollViewDemo">
         </activity>
-        <activity android:name=".Others.TimePickerDemo">
+        <activity android:name=".Demo.Others.TimePickerDemo">
         </activity>
-        <activity android:name=".Others.TabHostDemo">
+        <activity android:name=".Demo.Others.TabHostDemo">
         </activity>
-        <activity android:name=".Dialog.DialogDemoIndex">
+        <activity android:name=".Demo.Dialog.DialogDemoIndex">
         </activity>
-        <activity android:name=".Dialog.AlertDialogDemo">
+        <activity android:name=".Demo.Dialog.AlertDialogDemo">
         </activity>
-        <activity android:name=".Dialog.PopupWindowDemo">
+        <activity android:name=".Demo.Dialog.PopupWindowDemo">
         </activity>
-        <activity android:name=".Dialog.DateDialogDemo">
+        <activity android:name=".Demo.Dialog.DateDialogDemo">
         </activity>
-        <activity android:name=".Dialog.ProgressDialogDemo">
+        <activity android:name=".Demo.Dialog.ProgressDialogDemo">
         </activity>
-        <activity android:name=".Menu.MenuDemoIndex">
+        <activity android:name=".Demo.Menu.MenuDemoIndex">
         </activity>
-        <activity android:name=".Menu.MenuDemo">
+        <activity android:name=".Demo.Menu.MenuDemo">
         </activity>
-        <activity android:name=".Menu.ActivityMenuDemo">
+        <activity android:name=".Demo.Menu.ActivityMenuDemo">
         </activity>
-        <activity android:name=".Menu.ContextMenuDemo">
+        <activity android:name=".Demo.Menu.ContextMenuDemo">
         </activity>
-        <activity android:name=".Menu.MenuResDemo">
+        <activity android:name=".Demo.Menu.MenuResDemo">
         </activity>
-        <activity android:name=".Menu.PopupMenuDemo">
+        <activity android:name=".Demo.Menu.PopupMenuDemo">
+        </activity>
+        <activity android:name=".BaseActivity.DemoIndexActivity">
+        </activity>
+        <activity android:name=".BaseActivity.DemoActivity">
         </activity>
     </application>
 

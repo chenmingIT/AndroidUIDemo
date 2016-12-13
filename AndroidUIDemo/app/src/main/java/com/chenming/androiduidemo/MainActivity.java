@@ -1,24 +1,19 @@
 package com.chenming.androiduidemo;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.ListView;
-
-import com.chenming.androiduidemo.AdapterView.AdapterViewDemoIndex;
-import com.chenming.androiduidemo.Dialog.DialogDemoIndex;
-import com.chenming.androiduidemo.ImageView.ImageViewDemoIndex;
-import com.chenming.androiduidemo.Menu.MenuDemoIndex;
-import com.chenming.androiduidemo.Others.OtherDemoIndex;
-import com.chenming.androiduidemo.ProgressBar.ProgressBarDemoIndex;
-import com.chenming.androiduidemo.TextView.TextViewDemoIndex;
+import com.chenming.androiduidemo.BaseActivity.DemoIndexActivity;
+import com.chenming.androiduidemo.Demo.AdapterView.AdapterViewDemoIndex;
+import com.chenming.androiduidemo.Demo.Dialog.DialogDemoIndex;
+import com.chenming.androiduidemo.Demo.ImageView.ImageViewDemoIndex;
+import com.chenming.androiduidemo.Demo.Menu.MenuDemoIndex;
+import com.chenming.androiduidemo.Demo.Others.OtherDemoIndex;
+import com.chenming.androiduidemo.Demo.ProgressBar.ProgressBarDemoIndex;
+import com.chenming.androiduidemo.Demo.TextView.TextViewDemoIndex;
 import com.chenming.androiduidemo.Model.DemoInfo;
-import com.chenming.androiduidemo.Model.DemoItemClickListener;
-import com.chenming.androiduidemo.Model.DemoListAdapter;
-import com.chenming.androiduidemo.ViewAnimator.ViewAnimatorDemoIndex;
+import com.chenming.androiduidemo.Demo.ViewAnimator.ViewAnimatorDemoIndex;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends DemoIndexActivity {
 
-    ListView listView ;
     /**
      *title及其对应要跳转的class
      */
@@ -37,11 +32,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        listView = (ListView)findViewById(R.id.listView) ;
-        listView.setAdapter(new DemoListAdapter(MainActivity.this,DEMOS));
-        listView.setOnItemClickListener(new DemoItemClickListener(MainActivity.this,DEMOS));
+        SetData(this,DEMOS);
     }
 }
 
